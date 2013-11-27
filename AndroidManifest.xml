@@ -22,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="org.pmm.supertrivialgame.Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="org.pmm.supertrivialgame.Play"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="org.pmm.supertrivialgame.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="org.pmm.supertrivialgame.Credits"
+            android:label="@string/title_activity_credits" >
+        </activity>
+        <activity
+            android:name="org.pmm.supertrivialgame.Main"
+            android:label="@string/title_activity_main" >
+        </activity>
     </application>
 
 </manifest>

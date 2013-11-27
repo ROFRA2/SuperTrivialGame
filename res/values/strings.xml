@@ -4,5 +4,10 @@
     <string name="app_name">SuperTrivialGame</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_main">Main</string>
 
 </resources>
