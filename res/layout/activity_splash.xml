@@ -7,18 +7,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Splash" 
-    android:background="@drawable/fondo_intro">
+    android:background="@drawable/intro">
 
-    <ImageView
-        android:id="@+id/imageView1"
+  <ImageView
+        android:id="@+id/intronaranja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/intronaranja" />
+        android:src="@drawable/intronaranja" /> 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/introamarillo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -26,7 +26,7 @@
         android:src="@drawable/introamarillo" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/introrojo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -34,7 +34,7 @@
         android:src="@drawable/introrojo" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/introverde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -42,7 +42,7 @@
         android:src="@drawable/introverde" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/intromorado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
         android:src="@drawable/intromorado" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/introazul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -58,7 +58,7 @@
         android:src="@drawable/introazul" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/naranja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -66,7 +66,7 @@
         android:src="@drawable/naranja" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/amarillo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -74,7 +74,7 @@
         android:src="@drawable/amarillo" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/rojo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -82,7 +82,7 @@
         android:src="@drawable/rojo" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/verde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -90,19 +90,53 @@
         android:src="@drawable/verde" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/morado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/morado" />
+        android:src="@drawable/morado" />-->
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/azul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/azul" />
+        android:src="@drawable/azul" />  
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#96be3f"
+        android:textSize="70sp"
+        android:textStyle="bold" 
+        android:shadowColor="#739130"
+       	android:shadowRadius="3"
+       	android:shadowDx="2"
+       	android:shadowDy="4"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/intronaranja"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/titulo2"
+        android:textColor="#96be3f"
+        android:textSize="70sp"
+        android:textStyle="bold" 
+        android:shadowColor="#739130"
+       	android:shadowRadius="3"
+       	android:shadowDx="2"
+       	android:shadowDy="4"/>
 
 </RelativeLayout>

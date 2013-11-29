@@ -21,6 +21,8 @@
 	<string name="help">Help</string>
 	<string name="texto_credits_1">Super Trivial Game!! \n para \n Diseño de Aplicaciones Basadas en Dispositivos Móviles</string>
 	<string name="texto_credits_2">Autores: \n Francesc Nadal i Aura (frannaau@campusaula.com) Roberto Nova Cid (ronova@campusaula.com)</string>
+	<string name="titulo">SUPER TRIVIAL</string>
+	<string name="titulo2">GAME</string>
 	
 	
 </resources>
