@@ -22,7 +22,9 @@ public class Main extends Activity {
 		setContentView(R.layout.activity_menu);
 		
 		Button botonPlay = (Button)findViewById(R.id.button1);
-		
+		Button botonCreditos = (Button)findViewById(R.id.button3);
+		//Button botonScore = (Button)findViewById(R.id.button2);
+				
 		botonPlay.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -31,18 +33,6 @@ public class Main extends Activity {
 				startActivity(i);		
 			}
 		});
-		//Evento que hara cuando se pulse al boton score
-		/*Button botonScore = (Button)findViewById(R.id.button2);
-		
-		botonScore.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Intent i=new Intent(Main.this, Score.class);
-				startActivity(i);		
-			}
-		});	*/
-		Button botonCreditos = (Button)findViewById(R.id.button3);
 		
 		botonCreditos.setOnClickListener(new OnClickListener() {
 			
@@ -52,6 +42,18 @@ public class Main extends Activity {
 				startActivity(i);		
 			}
 		});	
+		//Evento que hara cuando se pulse al boton score
+		
+		/*
+				
+				botonScore.setOnClickListener(new OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						Intent i=new Intent(Main.this, Score.class);
+						startActivity(i);		
+					}
+				});	*/
 	}
 
 	@Override

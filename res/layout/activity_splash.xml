@@ -126,17 +126,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/intronaranja"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="76dp"
         android:gravity="center"
+        android:shadowColor="#739130"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="3"
         android:text="@string/titulo2"
         android:textColor="#96be3f"
         android:textSize="70sp"
-        android:textStyle="bold" 
-        android:shadowColor="#739130"
-       	android:shadowRadius="3"
-       	android:shadowDx="2"
-       	android:shadowDy="4"/>
+        android:textStyle="bold" />
 
 </RelativeLayout>

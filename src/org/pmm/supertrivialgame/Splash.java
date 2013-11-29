@@ -13,6 +13,13 @@ import android.widget.TextView;
 
 public class Splash extends Activity {
 
+	//Matar actividad cuando se pasa al menu
+	@Override
+	protected void onStop() {
+		Splash.this.finish();
+		super.onStop();
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

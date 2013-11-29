@@ -15,7 +15,7 @@
         android:toAlpha="0"
         android:repeatCount="3"/>
  	<translate 
-        android:startOffset="7000"
+        android:startOffset="6000"
         android:fromXDelta="0"
         android:toXDelta="200%"
         android:duration="4000"/>
