@@ -58,29 +58,36 @@ public final class R {
         public static final int verde=0x7f020017;
     }
     public static final class id {
-        public static final int action_help=0x7f090014;
-        public static final int action_settings=0x7f090016;
-        public static final int amarillo=0x7f09000f;
-        public static final int azul=0x7f090013;
+        public static final int action_help=0x7f09001b;
+        public static final int action_settings=0x7f09001d;
+        public static final int amarillo=0x7f090016;
+        public static final int azul=0x7f09001a;
         public static final int button1=0x7f090006;
         public static final int button2=0x7f090005;
         public static final int button3=0x7f090007;
+        public static final int editText1=0x7f090008;
+        public static final int editText2=0x7f090009;
+        public static final int editText3=0x7f09000c;
         public static final int imageView1=0x7f090001;
         public static final int imageView2=0x7f090003;
-        public static final int introamarillo=0x7f090009;
-        public static final int introazul=0x7f09000d;
-        public static final int intromorado=0x7f09000c;
-        public static final int intronaranja=0x7f090008;
-        public static final int introrojo=0x7f09000a;
-        public static final int introverde=0x7f09000b;
-        public static final int menu_setting=0x7f090015;
-        public static final int morado=0x7f090012;
-        public static final int naranja=0x7f09000e;
-        public static final int rojo=0x7f090010;
+        public static final int introamarillo=0x7f090010;
+        public static final int introazul=0x7f090014;
+        public static final int intromorado=0x7f090013;
+        public static final int intronaranja=0x7f09000f;
+        public static final int introrojo=0x7f090011;
+        public static final int introverde=0x7f090012;
+        public static final int menu_setting=0x7f09001c;
+        public static final int morado=0x7f090019;
+        public static final int naranja=0x7f090015;
+        public static final int rojo=0x7f090017;
+        public static final int spinner1=0x7f09000e;
         public static final int textView1=0x7f090004;
         public static final int textView2=0x7f090002;
         public static final int textView3=0x7f090000;
-        public static final int verde=0x7f090011;
+        public static final int textView4=0x7f09000a;
+        public static final int textView5=0x7f09000b;
+        public static final int textView6=0x7f09000d;
+        public static final int verde=0x7f090018;
     }
     public static final class layout {
         public static final int activity_credits=0x7f030000;
@@ -107,6 +114,13 @@ public final class R {
         public static final int hello_world=0x7f060003;
         public static final int help=0x7f060011;
         public static final int setting=0x7f060010;
+        public static final int settings_addFriend=0x7f06001b;
+        public static final int settings_botonAddFriend=0x7f06001c;
+        public static final int settings_botonPreferences=0x7f060019;
+        public static final int settings_emailAdress=0x7f060017;
+        public static final int settings_questionServer=0x7f06001a;
+        public static final int settings_quiestionsPreferences=0x7f060018;
+        public static final int settings_useraName=0x7f060016;
         public static final int texto_credits_1=0x7f060012;
         public static final int texto_credits_2=0x7f060013;
         public static final int title_activity_credits=0x7f060007;
@@ -132,15 +146,16 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f070005;
+        public static final int AppBaseTheme=0x7f070006;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070006;
-        public static final int LetrasCredits=0x7f070002;
-        public static final int LetrasCreditsInformacion=0x7f070003;
+        public static final int AppTheme=0x7f070007;
+        public static final int LetrasBotonSetting=0x7f070002;
+        public static final int LetrasCredits=0x7f070003;
+        public static final int LetrasCreditsInformacion=0x7f070004;
         public static final int LetrasMenu=0x7f070000;
-        public static final int LetrasPlay=0x7f070004;
+        public static final int LetrasPlay=0x7f070005;
         public static final int LetrasSetting=0x7f070001;
     }
 }

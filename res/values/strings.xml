@@ -13,7 +13,7 @@
 	<string name="title_menu">MAIN MENU</string>
 	<string name="title_play">PLAY GAME</string>
 	<string name="title_credits">CREDITS</string>
-	<string name="title_setting">SETTING</string>
+	<string name="title_setting">SETTINGS</string>
 	<string name="boton_play">Play</string>
 	<string name="boton_credits">Credits</string>
 	<string name="boton_score">Score</string>
@@ -23,6 +23,14 @@
 	<string name="texto_credits_2">Autores: \n Francesc Nadal i Aura (frannaau@campusaula.com) Roberto Nova Cid (ronova@campusaula.com)</string>
 	<string name="titulo">SUPER TRIVIAL</string>
 	<string name="titulo2">GAME</string>
+	<string name="settings_useraName">User name:</string>
+	<string name="settings_emailAdress">Email adress:</string>
+	<string name="settings_quiestionsPreferences">Question preferences:</string>
+	<string name="settings_botonPreferences">Select preferences</string>
+	<string name="settings_questionServer">Question server:</string>
+	<string name="settings_addFriend">Add a friend@aposs email:</string>
+	<string name="settings_botonAddFriend">Add friend</string>
+	
 	
 	
 </resources>

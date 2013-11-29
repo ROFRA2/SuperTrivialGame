@@ -1,11 +1,13 @@
 package org.pmm.supertrivialgame;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class Settings extends Activity {
 
@@ -13,6 +15,14 @@ public class Settings extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_settings);
+		
+		String[] data = new String[]{"Sports","Literature","Science","Movies","History"};
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data);
+		Spinner cmbTest = (Spinner)findViewById(R.id.spinner1);
+		////Indicamos el tipo de Spinner 
+		adapter.setDropDownViewResource(android.R.layout.simple_list_item_multiple_choice);
+		// Establecemos el adaptador en el Spinner
+		cmbTest.setAdapter(adapter);
 	}
 
 	@Override
@@ -21,7 +31,7 @@ public class Settings extends Activity {
 		getMenuInflater().inflate(R.menu.settings, menu);
 		return true;
 	}
-	
+		
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch(item.getItemId()){
 			case R.id.action_help:
