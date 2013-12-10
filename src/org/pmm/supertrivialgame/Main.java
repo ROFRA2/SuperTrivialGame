@@ -44,8 +44,7 @@ public class Main extends Activity {
 		});	
 		//Evento que hara cuando se pulse al boton score
 		
-		/*
-				
+		/*				
 				botonScore.setOnClickListener(new OnClickListener() {
 					
 					@Override
@@ -77,6 +76,7 @@ public class Main extends Activity {
 			ventana.setTitle("Ayuda");
 			ventana.setMessage("La ayuda esta disponible en www.noexiste.com.");
 			ventana.setIcon(android.R.drawable.ic_dialog_info);
+			ventana.setPositiveButton("OK", null);
 			ventana.show();
 			return true;
 		default:

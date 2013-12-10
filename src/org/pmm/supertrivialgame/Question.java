@@ -8,6 +8,15 @@ public class Question {
 	int rightAnswer;
 	int help;
 	
+	public Question(String subject, String questionText, String[] answers,int rightAnswer,int help){
+		this.subject=subject;
+		this.questionText=questionText;
+		this.answers=answers;
+		this.rightAnswer=rightAnswer;
+		this.help=help;
+	}
+
+	
 	public String getSubject() {
 		return subject;
 	}

@@ -20,17 +20,16 @@
 	<string name="setting">Settings</string>
 	<string name="help">Help</string>
 	<string name="texto_credits_1">Super Trivial Game!! \n para \n Diseño de Aplicaciones Basadas en Dispositivos Móviles</string>
-	<string name="texto_credits_2">Autores: \n Francesc Nadal i Aura (frannaau@campusaula.com) Roberto Nova Cid (ronova@campusaula.com)</string>
+	<string name="texto_credits_2">Autores: \n Francesc Nadal i Aura (frannaau@campusaula.com) Roberto Nova Cid (ronocid@campusaula.com)</string>
 	<string name="titulo">SUPER TRIVIAL</string>
 	<string name="titulo2">GAME</string>
 	<string name="settings_useraName">User name:</string>
-	<string name="settings_emailAdress">Email adress:</string>
+	<string name="settings_emailAdress">Email address:</string>
 	<string name="settings_quiestionsPreferences">Question preferences:</string>
 	<string name="settings_botonPreferences">Select preferences</string>
 	<string name="settings_questionServer">Question server:</string>
 	<string name="settings_addFriend">Add a friend@aposs email:</string>
 	<string name="settings_botonAddFriend">Add friend</string>
-	
-	
-	
+	<string name="score">Score: </string>
+	<string name="time">Time: </string>
 </resources>

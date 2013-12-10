@@ -29,6 +29,7 @@ public class Credits extends Activity {
 				ventana.setTitle("Ayuda");
 				ventana.setMessage("La ayuda esta disponible en www.noexiste.com.");
 				ventana.setIcon(android.R.drawable.ic_dialog_info);
+				ventana.setPositiveButton("OK", null);
 				ventana.show();
 				return true;
 		default:
